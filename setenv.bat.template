@@ -1,0 +1,8 @@
+Rem Garmin Username
+set USERNAME=
+
+Rem Garmin Password
+set PASSWORD=
+
+Rem Path to sync.py
+set SNYCPY=..\withings-garmin-v2

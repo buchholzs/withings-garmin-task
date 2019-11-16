@@ -6,4 +6,4 @@ set "G=%temp%\LastPeriod.vbs"
 for /f %%i in ('cscript //nologo %G%') do set "LastPeriod=%%i"
 echo Fetching data from %LastPeriod:~-10,2%.%LastPeriod:~-7,2%.%LastPeriod:~-4,4% >> sync.log
 sync.py -f %LastPeriod:~-4,4%-%LastPeriod:~-7,2%-%LastPeriod:~-10,2% -v --garmin-username=%USERNAME% --garmin-password=%PASSWORD% >> sync.log
-echo ---------- Sync beendet ---------  >> sync.log
+echo ---------- Sync end ---------  >> sync.log
