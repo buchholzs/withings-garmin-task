@@ -4,4 +4,6 @@ https://github.com/jaroslawhartman/withings-garmin-v2
 to read the last few days from the withings website and to transfer them to Garmin Connect.
 
 It uses the configuration file setenv.bat for the username and password.
+You shall copy setenv.bat.template to setenv.bat and modify it for your purposes.
+
 Before you can use the batch file, you should execute sync.pl in its home directory to store the access token.
