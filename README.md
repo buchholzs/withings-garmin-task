@@ -1,1 +1,7 @@
 # withings-garmin-task
+The script sync-garmin.bat uses the script sync.pl from the Git Project 
+https://github.com/jaroslawhartman/withings-garmin-v2
+to read the last few days from the withings website and to transfer them to Garmin Connect.
+
+It uses the configuration file setenv.bat for the username and password.
+Before you can use the batch file, you should execute sync.pl in its home directory to store the access token.

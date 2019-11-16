@@ -1,5 +1,6 @@
-echo ---------- Starting Sync ----------  >> %LOGFILE%
+Rem Read user settings
 call setenv.bat
+echo ---------- Starting Sync ----------  >> %LOGFILE%
 echo Current date: %date% %time:~0,5% >> %LOGFILE%
 set CURDIR=%cd%
 set "G=%temp%\LastPeriod.vbs"

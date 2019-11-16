@@ -1,3 +1,6 @@
+Rem Current Workdir
+set CURDIR=%cd%
+
 Rem Garmin Username
 set USERNAME=
 
@@ -9,3 +12,6 @@ set SYNCPY=..\withings-garmin-v2
 
 Rem Days to fetch
 set DAYS=14
+
+Rem Logfile
+set LOGFILE=%CURDIR%\sync.log
