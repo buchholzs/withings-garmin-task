@@ -8,4 +8,4 @@ You shall copy setenv.bat.template to setenv.bat and modify it for your purposes
 
 Before you can use the batch file, you should execute sync.pl in its home directory to store the access token.
 
-In the project ![wiki page](https://github.com/buchholzs/withings-garmin-task/wiki/How-to-schedule-a-task-for-regularly-syncing-the-weight-from-Withings-to-Garmin), I show you how to schedule a task with Windows 10 task scheduler to sync your weight every week.
+In the project [wiki page](https://github.com/buchholzs/withings-garmin-task/wiki/How-to-schedule-a-task-for-regularly-syncing-the-weight-from-Withings-to-Garmin), I show you how to schedule a task with Windows 10 task scheduler to sync your weight every week.
