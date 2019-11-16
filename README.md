@@ -7,3 +7,5 @@ It uses the configuration file setenv.bat for the username and password.
 You shall copy setenv.bat.template to setenv.bat and modify it for your purposes.
 
 Before you can use the batch file, you should execute sync.pl in its home directory to store the access token.
+
+In the project wiki, I show you how to schedule a task with Windows 10 task scheduler to sync your weight every week.
