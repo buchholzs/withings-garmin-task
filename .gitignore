@@ -1,2 +1,5 @@
 setenv.bat
 sync.log
+.withings_user.json
+.garmin_session/oauth1_token.json
+.garmin_session/oauth2_token.json
