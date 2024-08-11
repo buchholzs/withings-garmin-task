@@ -1,7 +1,7 @@
 # withings-garmin-task
 The script sync-garmin.bat uses the script withings-sync from the Git Project 
 https://github.com/jaroslawhartman/withings-sync
-to read the last few days from the Withings website and to transfer them to Garmin Connect.
+to read the last few days from the Withings site and to transfer them to Garmin Connect.
 
 It uses the configuration file setenv.bat for the username and password.
 You shall copy setenv.bat.template to setenv.bat and modify it for your purposes.
