@@ -7,9 +7,6 @@ set USERNAME=
 Rem Garmin Password
 set PASSWORD=
 
-Rem Path to sync.py
-set SYNCPY=..\withings-garmin-v2
-
 Rem Days to fetch
 set DAYS=14
 
